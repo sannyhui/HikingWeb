@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9xK-EH-HxZ">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item2-->
+        <scene sceneID="Keg-ph-XkA">
+            <objects>
+                <viewController id="4ZM-Ic-74g" customClass="Item2" customModule="HikingWebPage" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Mu9-Xz-gnR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="1oG-h8-1Jg"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="KPU-Yw-2FI"/>
+                    <connections>
+                        <segue destination="p67-11-rfG" kind="show" identifier="item2Segue" id="ypT-UE-t5J"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XOX-Yg-n2K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="828" y="558"/>
+        </scene>
+        <!--Item2 Cell Details-->
+        <scene sceneID="hva-cb-iJQ">
+            <objects>
+                <viewController id="p67-11-rfG" customClass="Item2CellDetails" customModule="HikingWebPage" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1Bl-N5-Nhz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="1hP-m6-H6g"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Hxx-XD-Jwu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jxs-BE-GAU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1712" y="528"/>
+        </scene>
+        <!--Item1-->
+        <scene sceneID="Of9-ji-s8X">
+            <objects>
+                <viewController id="OX2-sH-sre" customClass="Item1" customModule="HikingWebPage" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ng4-Se-fcF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="uPy-V1-rX1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="XXt-Pz-008"/>
+                    <connections>
+                        <segue destination="odH-qK-PbE" kind="show" identifier="item1Segue" id="I11-1W-3s6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JJJ-zJ-nxm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928" y="-145"/>
+        </scene>
+        <!--Item1 Cell Details-->
+        <scene sceneID="5rx-mO-Klm">
+            <objects>
+                <viewController id="odH-qK-PbE" customClass="Item1CellDetails" customModule="HikingWebPage" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uli-pm-1pO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="8tS-PP-PXZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hxf-dK-iIV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zTt-Lk-LeX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1777" y="-163"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Sra-JT-Cpe">
+            <objects>
+                <tabBarController id="9xK-EH-HxZ" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jr3-R2-jh2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="2IL-G1-J8n" kind="relationship" relationship="viewControllers" id="mh0-KE-juu"/>
+                        <segue destination="6Ga-Bj-ILL" kind="relationship" relationship="viewControllers" id="iY3-fR-OEY"/>
+                        <segue destination="xfv-yl-x85" kind="relationship" relationship="viewControllers" id="Fau-Bs-zha"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2R6-6r-cBh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1058" y="125"/>
+        </scene>
+        <!--戶外遠足行山資訊App-->
+        <scene sceneID="nip-7m-1AO">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2IL-G1-J8n" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="戶外遠足行山資訊App" image="pencil.tip" catalog="system" id="0zl-iE-avz"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="r5v-8I-Szi">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="OX2-sH-sre" kind="relationship" relationship="rootViewController" id="7xm-mn-l8O"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YPy-ro-eVr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-13.043478260869566" y="-157.36607142857142"/>
+        </scene>
+        <!--純影集-->
+        <scene sceneID="ffy-S2-Jj7">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6Ga-Bj-ILL" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="純影集" image="square.and.arrow.up.on.square" catalog="system" id="aG9-3y-ngN"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="SY3-cU-6gs">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="4ZM-Ic-74g" kind="relationship" relationship="rootViewController" id="ueu-fp-Hxm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="duC-Rl-YL0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-13" y="558"/>
+        </scene>
+        <!--Item3-->
+        <scene sceneID="kIL-cZ-qBl">
+            <objects>
+                <viewController id="9ds-fC-69E" customClass="Item3" customModule="HikingWebPage" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jds-Vd-Xqu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="XKe-59-lpQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="X1a-5K-mZb"/>
+                    <connections>
+                        <segue destination="lYd-Uk-qUZ" kind="show" identifier="item3Segue" id="tYL-WQ-dvo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fYh-UP-38W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="828" y="1225"/>
+        </scene>
+        <!--Item3 Details-->
+        <scene sceneID="sQu-UH-ZAv">
+            <objects>
+                <viewController id="lYd-Uk-qUZ" customClass="Item3Details" customModule="HikingWebPage" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GdH-IP-qBb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="8xg-UX-o22"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Tdh-ay-vgN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tgp-2r-dpJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1713" y="1226"/>
+        </scene>
+        <!--Map-->
+        <scene sceneID="pEd-pg-bSh">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xfv-yl-x85" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Map" image="map.fill" catalog="system" id="74S-Dh-Fi4"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Pm5-S2-act">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9ds-fC-69E" kind="relationship" relationship="rootViewController" id="QbU-Ph-9cO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T4h-T7-gCb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-13.043478260869566" y="1234.8214285714284"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="map.fill" catalog="system" width="128" height="110"/>
+        <image name="pencil.tip" catalog="system" width="99" height="128"/>
+        <image name="square.and.arrow.up.on.square" catalog="system" width="117" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
